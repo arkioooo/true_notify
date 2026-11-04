@@ -1,0 +1,28 @@
+/* ── MAIN ─────────────────────────────────────────── */
+
+.main{
+    padding:80px 28px 48px;
+    max-width:1180px;
+    margin:0 auto;
+}
+
+.page{
+    display:none;
+}
+
+.page.active{
+    display:block;
+    animation:fi .2s ease;
+}
+
+@keyframes fi{
+    from{
+        opacity:0;
+        transform:translateY(5px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+

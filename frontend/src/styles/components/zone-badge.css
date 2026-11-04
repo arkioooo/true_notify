@@ -1,0 +1,29 @@
+/* ── ZONE BADGES ────────────────────────────────── */
+.zbadge {
+	display: inline-flex;
+	align-items: center;
+	gap: 5px;
+	padding: 3px 10px;
+	border-radius: 100px;
+	font-size: 11px;
+	font-family: 'JetBrains Mono', monospace;
+}
+
+.za {
+	background: var(--green-s);
+	color: var(--green);
+	border: 1px solid rgba(39, 174, 96, .18);
+}
+
+.zd {
+	background: var(--amber-s);
+	color: var(--amber);
+	border: 1px solid rgba(230, 126, 34, .18);
+}
+
+.zc {
+	background: var(--red-s);
+	color: var(--red);
+	border: 1px solid var(--red-b);
+}
+

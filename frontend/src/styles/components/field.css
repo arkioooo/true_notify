@@ -1,0 +1,38 @@
+/* ── INPUTS ─────────────────────────────────────── */
+
+.field{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+  margin-bottom:14px;
+}
+
+.field label{
+  font-size:12px;
+  color:var(--muted);
+  font-weight:500;
+}
+
+.field input,.field textarea,.field select{
+  background:var(--s2);
+  border:1px solid var(--border2);
+  border-radius:var(--rs);
+  padding:9px 12px;
+  color:var(--text);
+  font-size:13px;
+  font-family:'Inter',sans-serif;
+  transition:border-color .15s;
+}
+
+.field input:focus,.field textarea:focus{
+  border-color:var(--red);
+  outline:none;
+}
+
+.field select{cursor:pointer;}
+
+.field textarea{
+  resize:vertical;
+  min-height:80px;
+}
+

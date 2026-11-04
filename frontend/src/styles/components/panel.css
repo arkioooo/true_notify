@@ -1,0 +1,9 @@
+/* ── PANELS ─────────────────────────────────────── */
+
+.panel{
+  background:var(--s1);
+  border:1px solid var(--border);
+  border-radius:var(--r);
+  padding:20px;
+}
+

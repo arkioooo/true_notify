@@ -1,0 +1,53 @@
+/api/notify
+OTP : SHOULD BYPASS
+{
+  "recipient_id": "user_123",
+  "content": "Your OTP is 4821. Valid for 5 minutes."
+}
+
+MARKETING : SPAM - DROP
+{
+  "recipient_id": "user_123",
+  "content": "FLASH SALE! 90% OFF! Click now!"
+}
+
+------------------------------------
+
+/api/beacon
+Good Connection
+{
+  "user_id": "user_123",
+  "lat": 13.0827,
+  "lng": 80.2707,
+  "connectivity_score": 3
+}
+
+Poor Connection
+{
+  "user_id": "user_123",
+  "lat": 13.0827,
+  "lng": 80.2707,
+  "connectivity_score": 1
+}
+
+Defer Zone (User Defined)
+{
+  "user_id": "user_123",
+  "lat": 13.1000,
+  "lng": 80.2900,
+  "connectivity_score": 3
+}
+
+------------------------------------
+
+/api/geo/create
+
+DEFER ZONE - added by user
+{
+  "user_id": "user_123",
+  "label": "gym",
+  "lat": 13.085,
+  "lng": 80.275,
+  "radius_meters": 150,
+  "zone_type": "defer"
+}

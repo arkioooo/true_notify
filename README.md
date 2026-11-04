@@ -93,17 +93,24 @@ pip install -r requirements.txt
 ```
 
 
-Run services:
+Run the backend:
 
 ```bash
 uvicorn app.main:app --reload
-python -m http.server 3000
+```
+
+Run the frontend (React + Vite, in `frontend/`):
+
+```bash
+cd frontend
+npm install
+npm run dev
 ```
 
 Open:
 
 ```
-http://[::1]:3000/
+http://localhost:5173/
 ```
 
 ---

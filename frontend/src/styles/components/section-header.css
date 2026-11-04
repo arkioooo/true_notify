@@ -1,0 +1,21 @@
+/* ── SH ─────────────────────────────────────────── */
+
+.sh{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin-bottom:14px;
+}
+
+.sh-t{
+  font-size:13px;
+  font-weight:600;
+  white-space:nowrap;
+}
+
+.sh-l{
+  flex:1;
+  height:1px;
+  background:var(--border);
+}
+

@@ -1,0 +1,31 @@
+/* ── CONNECTIVITY ───────────────────────────────── */
+.cbar-wrap {
+	display: flex;
+	gap: 3px;
+	margin: 6px 0;
+}
+
+.cbar {
+	width: 18px;
+	height: 9px;
+	border-radius: 3px;
+	background: var(--s3);
+	transition: background .2s;
+}
+
+.cbar.c0 {
+	background: var(--red);
+}
+
+.cbar.c1 {
+	background: var(--amber);
+}
+
+.cbar.c2 {
+	background: var(--green);
+}
+
+.cbar.c3 {
+	background: var(--green);
+}
+

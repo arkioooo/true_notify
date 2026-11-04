@@ -9,3 +9,10 @@ __pycache__/
 # Ignore virtual environment
 venv/
 server/app/services/__pycache__/queue_service.cpython-313.pyc
+server/app/__pycache__/main.cpython-313.pyc
+server/app/api/__pycache__/beacon.cpython-313.pyc
+server/app/api/__pycache__/beacon.cpython-313.pyc
+server/app/services/__pycache__/queue_service.cpython-313.pyc
+server/app/services/__pycache__/ai_service.cpython-313.pyc
+server/app/api/__pycache__/notify.cpython-313.pyc
+ui/

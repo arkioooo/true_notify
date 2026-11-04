@@ -1,0 +1,37 @@
+/* ── TAGS ───────────────────────────────────────── */
+.ptag {
+	font-size: 10px;
+	font-weight: 600;
+	padding: 2px 7px;
+	border-radius: 5px;
+	font-family: 'JetBrains Mono', monospace;
+	text-transform: uppercase;
+	letter-spacing: .3px;
+}
+
+.p-c {
+	background: var(--red-s);
+	color: var(--red);
+}
+
+.p-h {
+	background: var(--amber-s);
+	color: var(--amber);
+}
+
+.p-n {
+	background: var(--blue-s);
+	color: var(--blue);
+}
+
+.p-l {
+	background: rgba(255, 255, 255, 0.04);
+	color: var(--muted);
+}
+
+.ctag {
+	font-size: 10px;
+	color: var(--muted);
+	font-family: 'JetBrains Mono', monospace;
+}
+

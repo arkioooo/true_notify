@@ -1,0 +1,14 @@
+/* ── GRIDS ──────────────────────────────────────── */
+
+.tc{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:16px;
+}
+
+.tc3{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap:16px;
+}
+

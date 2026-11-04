@@ -1,0 +1,29 @@
+/* ── RBOX ───────────────────────────────────────── */
+.rbox {
+	background: var(--s2);
+	border: 1px solid var(--border);
+	border-radius: var(--rs);
+	padding: 12px;
+	font-family: 'JetBrains Mono', monospace;
+	font-size: 11px;
+	color: var(--muted);
+	white-space: pre-wrap;
+	min-height: 52px;
+	line-height: 1.7;
+}
+
+.rbox.ok {
+	border-color: rgba(39, 174, 96, .3);
+	color: var(--green);
+}
+
+.rbox.err {
+	border-color: var(--red-b);
+	color: var(--red);
+}
+
+.rbox.info {
+	border-color: rgba(41, 128, 185, .3);
+	color: var(--blue);
+}
+
